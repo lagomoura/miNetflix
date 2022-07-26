@@ -1,0 +1,93 @@
+.lists {
+	margin-top: -150px;
+}
+
+.featured {
+	height: 100vh;
+}
+
+.featured-vertical {
+	width: inherit;
+	height: inherit;
+	background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.featured-horizontal {
+	width: inherit;
+	height: inherit;
+	background: linear-gradient(to right, #111 30%, transparent 70%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+	padding-bottom: 150px;
+	padding-top: 70px;
+}
+
+.featured-name {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.featured-info {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.featured-rating,
+.featured-year,
+.featured-season {
+	display: inline-block;
+
+	margin-right: 15px;
+}
+
+.featured-rating {
+	color: #46d369;
+}
+
+.featured-overview {
+	font-size: 20px;
+	color: #999;
+	margin-top: 15px;
+	max-width: 40%;
+}
+
+.featured-buttons {
+	margin-top: 15px;
+}
+
+.btn-watch,
+.btn-list {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-right: 10px;
+	transition: all ease 0.3s;
+}
+
+.btn-watch {
+	background-color: #fff;
+	color: #000;
+}
+
+.btn-list {
+	background-color: #333;
+	color: #fff;
+}
+
+.btn-watch:hover,
+.btn-list:hover {
+	opacity: 0.7;
+}
+
+.featured-genres {
+	margin-top: 15px;
+	font-size: 18px;
+	color: #999;
+}
