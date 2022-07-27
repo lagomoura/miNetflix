@@ -73,12 +73,12 @@
 
 .btn-watch {
 	background-color: #fff;
-	color: #000;
+	color: #000 !important;
 }
 
 .btn-list {
 	background-color: #333;
-	color: #fff;
+	color: #fff !important;
 }
 
 .btn-watch:hover,

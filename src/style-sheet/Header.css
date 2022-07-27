@@ -26,9 +26,23 @@ header.black {
 
 .header-user {
 	height: 35px;
+	display: flex;
 }
 
 .header-user img {
 	height: 100%;
 	border-radius: 3px;
+}
+
+.header-user-icon {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.search-icon, .bell-icon {
+	margin: 10px;
+	cursor: pointer;
 }
