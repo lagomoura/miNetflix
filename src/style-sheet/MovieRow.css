@@ -59,3 +59,9 @@
 .movieRow:hover .next-arrow {
 	opacity: 1;
 }
+
+@media (max-width: 760px) {
+	.back-arrow, .next-arrow {
+		opacity: 1;
+	}
+}

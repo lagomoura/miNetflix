@@ -14,6 +14,13 @@ export default function FeaturedMovie({ featuredMovie }) {
 		genres.push(featuredMovie.genres[i].name); //.El push guarda cada i generado en el aray genres.
 	}
 
+	//= Para controloar overviews muy largos, usamos el metodo substring() para que mostre desde el caracter 0 hasta el 200, concatenando el string de mensaje de leer mas.
+	let description = featuredMovie.overview;
+	if (description.length > 200) {
+		description = description.substring(0,200) + '...';
+	}
+
+
 	return (
 		<section
 			className='featured'
@@ -35,7 +42,7 @@ export default function FeaturedMovie({ featuredMovie }) {
 							{featuredMovie.number_of_seasons !== 1 ? ' seasons' : ' season'}
 						</div>
 						<div className='featured-year'>{firstDate.getFullYear()}</div>
-						<div className='featured-overview'>{featuredMovie.overview}</div>
+						<div className='featured-overview'>{description}<div className="btn text-light">Read more.</div></div>
 						<div className='featured-buttons'>
 							<a href={`/watch/${featuredMovie.id}`} className='btn-watch'>
 								{' '}
