@@ -5,7 +5,7 @@
 ### Tecnologias Utilizadas:
 
 * JavaScript
-* React
+* React (ReactDOM, ReactIcons)
 * CSS
 
 ### Base datos:
