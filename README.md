@@ -7,7 +7,12 @@
 * JavaScript
 * React (ReactDOM, ReactIcons)
 * CSS
+* HTML
 
-### Base datos:
-* TheMovieDB
+### Base de datos:
+* TheMovieDB (https://www.themoviedb.org/)
+
+### Deploy:
+
+* Vercel my-netflix-puce.vercel.app
 
