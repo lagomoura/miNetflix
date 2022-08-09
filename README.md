@@ -1,4 +1,4 @@
-# Projecto de practica
+# Proyecto de practica
 
 ### Clone de pagina principal de NetFlix
 
