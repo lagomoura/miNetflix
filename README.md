@@ -14,5 +14,5 @@
 
 ### Deploy:
 
-* Vercel my-netflix-puce.vercel.app
+* Vercel {my-netflix-puce.vercel.app}
 
