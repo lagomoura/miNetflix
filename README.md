@@ -12,7 +12,7 @@
 ### Base de datos:
 * TheMovieDB (https://www.themoviedb.org/)
 
-### Deploy:
+### Deployed:
 
-* Vercel {my-netflix-puce.vercel.app}
+* Vercel [my-netflix-puce.vercel.app]
 
