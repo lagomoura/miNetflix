@@ -14,5 +14,5 @@
 
 ### Deployed:
 
-* Vercel [my-netflix-puce.vercel.app](my-netflix-puce.vercel.app)
+* Vercel [my-netflix-puce.vercel.app](https://my-netflix-puce.vercel.app)
 
